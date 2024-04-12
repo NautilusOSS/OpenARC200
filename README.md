@@ -2,21 +2,24 @@
 
 ERC20 like token on AVM (Algorand + Voi)
 
-## Have a question?
+## Latest version
 
-Let's talk. **[Start a GitHub Discussion](https://github.com/temptemp3/arc-200/discussions)**
+### V1_1
 
-## Development
+* Add arc73 interface selector `c7bea040`
+* Add box creation methods
+* Remove destructive methods (delete boxes and app)
+* Disallow transfer to self
+* Fix grant method
+* Extras
+  * Add participation methods
+  * Add nop
 
-### app
+## Versions
 
-Reactjs app built around token.
+Previous versions kept for archival purposes. Latest version in rsh/arc200 directory.
 
-### script
+### V1_0
 
-Command line utilities for minting and distributing tokens.
-
-### rsh/arc200
-
-Smart contract compile using [Reach](https://github.com/reach-sh/reach-lang) compiler.
+* Core features
 
