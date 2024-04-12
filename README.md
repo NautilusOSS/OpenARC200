@@ -10,7 +10,6 @@ ERC20 like token on AVM (Algorand + Voi)
 * Add box creation methods
 * Remove destructive methods (delete boxes and app)
 * Disallow transfer to self
-* Fix grant method
 * Extras
   * Add participation methods
   * Add nop
