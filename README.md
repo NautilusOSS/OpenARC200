@@ -11,13 +11,13 @@ ERC20 like token on AVM (Algorand + Voi)
 
 ## changelog
 
-## Latest version
+__Latest version__
 
-#### V1_1_1
+### V1_1_1
 
 * Allow self transfer
 
-## Versions
+__Versions__
 
 Previous versions kept for archival purposes. Latest version in rsh/arc200 directory.
 
