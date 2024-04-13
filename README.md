@@ -2,7 +2,24 @@
 
 ERC20 like token on AVM (Algorand + Voi)
 
+## Key features
+
+* ARC200-compliant smart contract token
+* ARC73 interface selector
+* Box creation methods
+* Particpation mdoe
+
+## changelog
+
 ## Latest version
+
+#### V1_1_1
+
+* Allow self transfer
+
+## Versions
+
+Previous versions kept for archival purposes. Latest version in rsh/arc200 directory.
 
 ### V1_1
 
@@ -13,10 +30,6 @@ ERC20 like token on AVM (Algorand + Voi)
 * Extras
   * Add participation methods
   * Add nop
-
-## Versions
-
-Previous versions kept for archival purposes. Latest version in rsh/arc200 directory.
 
 ### V1_0
 

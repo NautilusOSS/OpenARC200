@@ -190,6 +190,7 @@ export const ARC200 = Reach.App(() => {
     .while(true)
     .define(() => {
       const transfer_ = (from_, to_, value_) => {
+        assert(from_ != to_, "ARC200: Transfer to self");
         balances[from_] = balanceOf(from_) - value_;
         balances[to_] = balanceOf(to_) + value_;
         N.arc200_Transfer(from_, to_, value_);
@@ -207,6 +208,7 @@ export const ARC200 = Reach.App(() => {
     })
     .define(() => {
       const chkTransfer = (from_, to_, value_) => {
+        check(from_ != to_, "ARC200: Transfer to self");
         check(
           balanceOf(from_) >= value_,
           "ARC200: Transfer amount must not be greater than balance"
@@ -227,6 +229,7 @@ export const ARC200 = Reach.App(() => {
     })
     .define(() => {
       const chkTransferFrom = (spender_, from_, to_, value_) => {
+        check(from_ != to_, "ARC200: Transfer to self");
         check(
           balanceOf(from_) >= value_,
           "ARC200: Amount must not be greater than balance"
